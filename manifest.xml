@@ -1,0 +1,9 @@
+<package>
+  <description brief="A dummy package meant to allow rock.gazebo to 'fix' the gazebo pkg-config file">
+    This package contains and does nothing. It is used as a placeholder to allow
+    the rock-gazebo package set to "fix" the gazebo.pc file
+  </description>
+  <author>Sylvain Joyeux/sylvain.joyeux@tidewise.io</author>
+  <license>WTFPL</license>
+  <depend package="simulation/gazebo" />
+</package>
